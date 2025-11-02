@@ -1,0 +1,22 @@
+{
+  "name": "estrutura-arvore-binaria",
+  "version": "1.0.0",
+  "description": "Implementação didática de Árvore Binária de Busca em TypeScript",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [
+    "arvore-binaria",
+    "estrutura-de-dados",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
