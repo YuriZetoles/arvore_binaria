@@ -28,24 +28,24 @@ console.log('Teste 4: Buscando elementos na árvore');
 // Testando valores que existem
 const searchValue1 = 40;
 const found1 = tree.find(searchValue1);
-console.log(`Buscando o valor ${searchValue1}: ${found1 ? 'ENCONTRADO ✓' : 'NÃO ENCONTRADO ✗'}`);
+console.log(`Buscando o valor ${searchValue1}: ${found1 ? 'ENCONTRADO' : 'NÃO ENCONTRADO'}`);
 
 const searchValue2 = 70;
 const found2 = tree.find(searchValue2);
-console.log(`Buscando o valor ${searchValue2}: ${found2 ? 'ENCONTRADO ✓' : 'NÃO ENCONTRADO ✗'}`);
+console.log(`Buscando o valor ${searchValue2}: ${found2 ? 'ENCONTRADO' : 'NÃO ENCONTRADO'}`);
 
 const searchValue3 = 20;
 const found3 = tree.find(searchValue3);
-console.log(`Buscando o valor ${searchValue3}: ${found3 ? 'ENCONTRADO ✓' : 'NÃO ENCONTRADO ✗'}`);
+console.log(`Buscando o valor ${searchValue3}: ${found3 ? 'ENCONTRADO' : 'NÃO ENCONTRADO'}`);
 
 // Testando valores que NÃO existem
 const searchValue4 = 25;
 const found4 = tree.find(searchValue4);
-console.log(`Buscando o valor ${searchValue4}: ${found4 ? 'ENCONTRADO ✓' : 'NÃO ENCONTRADO ✗'}`);
+console.log(`Buscando o valor ${searchValue4}: ${found4 ? 'ENCONTRADO' : 'NÃO ENCONTRADO'}`);
 
 const searchValue5 = 100;
 const found5 = tree.find(searchValue5);
-console.log(`Buscando o valor ${searchValue5}: ${found5 ? 'ENCONTRADO ✓' : 'NÃO ENCONTRADO ✗'}`);
+console.log(`Buscando o valor ${searchValue5}: ${found5 ? 'ENCONTRADO' : 'NÃO ENCONTRADO'}`);
 
 console.log('\nTeste 5: Criando uma segunda árvore com valores diferentes');
 const tree2 = new BinaryTree();
